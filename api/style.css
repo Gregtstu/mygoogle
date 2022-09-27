@@ -18,7 +18,6 @@ html {
 }
 
 .out-2 {
-    /* border: 1px solid green; */
     z-index: 100;
     width: 100%;
     display: flex;
@@ -36,13 +35,12 @@ html {
 
 .search {
     border: 5px solid rgb(100, 100, 200);
+    outline: none;
     border-radius: 30px;
     align-content: center;
     width: 600px;
     font-size: 50px;
     text-indent: 10px;
-
-
 }
 
   #container {
@@ -55,7 +53,6 @@ html {
 }
 
  button {
-    border: 10px solid red;
     justify-self: center;
     align-self: flex-end;
 }
@@ -160,4 +157,32 @@ button:focus {
 .shadow:hover {
     opacity: 0;
     transform: translateY(200%);
-} 
+}
+
+.none{
+    display: none;
+}
+ .block{
+     display: block;
+ }
+
+ .btn{
+     background-color: rgb(100, 100, 200);
+     border: none;
+     width: 40%;
+     padding: 20px;
+     margin: 0 auto;
+     color: black;
+     font-size: 20px;
+     cursor: pointer;
+ }
+
+ .btn:hover{
+     background-color: rgb(124, 124, 196);
+ }
+
+ .out-2{
+     height: 60%;
+     box-sizing: border-box;
+     overflow: auto;
+ }
